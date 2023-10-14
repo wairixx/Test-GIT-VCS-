@@ -1,0 +1,71 @@
+git status:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+git branch:
+* main
+  mybranch
+
+git log:
+commit f0f22afa6459b4a51ff6cbabadd77a5c5325e1fa (HEAD -> main, origin/main, origin/HEAD)
+Author: wairixx <107578197+wairixx@users.noreply.github.com>
+Date:   Sat Oct 14 10:31:01 2023 +0300
+
+    Create Text file
+
+    added a text file
+
+commit f6b42703ae3fb55b481f6a738ae25a6415aa0bd8
+Merge: 6eb326d f59b643
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:28:47 2023 +0300
+
+    conflict fixed
+
+commit 6eb326d53be1394756a5b100b561eae6398188e6
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:25:41 2023 +0300
+
+    added p in index.html
+
+commit f59b6434060e5fa17201bff40c940a9906f264d9 (origin/mybranch, mybranch)
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:21:47 2023 +0300
+
+    changred type for ordered list in index.html
+
+commit 0c112e26b33d9a956fe690a472060b84ab1cdb1e
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:19:53 2023 +0300
+
+    added an ordered list in index.html
+
+commit 8d416c84414e7b5e862a86880d8e064f078e3406
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:17:38 2023 +0300
+
+    added a list in index.html
+
+commit 0511e5e612445f09537df80f4b5a892d14bb1b5e
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:12:30 2023 +0300
+
+    added index.html
+
+commit 957a37777fa1d27d8cf825c4ce39d5855c09e6c8
+Author: wairixx <107578197+wairixx@users.noreply.github.com>
+Date:   Sat Oct 14 10:08:43 2023 +0300
+
+    Initial commit
+
+git log --merges:
+commit f6b42703ae3fb55b481f6a738ae25a6415aa0bd8
+Merge: 6eb326d f59b643
+Author: wairixx <mehanichevaoleksandra@gmail.com>
+Date:   Sat Oct 14 10:28:47 2023 +0300
+
+    conflict fixed
+
+
